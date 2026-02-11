@@ -1,0 +1,237 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % Clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate PDF is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+% Just in case someone needs a heading that does not need to be in a list
+\newcommand{\resumeHeading}[4]{
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{-}{\Large Daniel Rojas Lopez}} & Email: \href{mailto:drojaslopez.ing@gmail.com}{drojaslopez.ing@gmail.com}\\
+  linkedin : \href{https://www.linkedin.com/in/drojaslopez/}{linkedin.com/in/drojaslopez/} & Celular: \href{tel:+56963660706}{+56963660706} \\
+  github : \href{https://www.github.com/drojaslopez}{github.com/drojaslopez} \\
+
+\end{tabular*}
+
+\section{Resumen Profesional}  
+  \textit{Ingeniero Civil en Computación con más de 9 años de experiencia, especializado en el diseño de arquitectura de software y soluciones de alta complejidad. Experto en liderar procesos de transformación digital mediante la implementación de microservicios, integración de sistemas críticos y robustecimiento de la ciberseguridad en el ciclo de vida del desarrollo.} 
+
+
+%-----------Experiencia Laboral-----------------
+
+\section{Experiencia Laboral}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Banco de Chile}{Santiago, Chile}
+      {Ingeniero SR de Software}{Enero 2024 -- Presente}
+      \resumeItemListStart
+        \resumeItem{TensorFlow}
+          {TensorFlow is an open source software library for numerical computation using data flow graphs; primarily used for training deep learning models. Worked on APIs and performance for training models on Tensor Processing Units (TPU).}
+        \resumeItem{Apache Beam}
+          {Responsable de la coordinación y supervisión de un equipo técnico compuesto por 3 desarrolladores. Encargado de la gestión de tareas, control de calidad de los entregables, cumplimiento de los cronogramas del proyecto.}
+      \resumeItemListEnd
+      
+% --------Multiple Positions Heading------------
+  %  \resumeSubSubheading
+  %   {Software Engineer I}{Oct 2014 -- Sep 2016}
+  %   \resumeItemListStart
+  %      \resumeItem{Apache Beam}
+  %        {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+  %   \resumeItemListEnd
+
+%-------------------------------------------
+
+    \resumeSubheading
+      {Banchile Inversiones}{Santiago, Chile}
+      {Ingeniero SSR de Software}{Mar 2022 -- Dic 2023}
+      \resumeItemListStart 
+          \resumeItem{Ingeniero de Software}
+          {Instructor dashboards and learner surveying tools, which helped instructors run their class better by providing data on Assignments and Learner Activity.}
+          \resumeItem{Lider de equipo}
+          {Responsable de la coordinación y supervisión de un equipo técnico compuesto por 3 desarrolladores externos y practicantes. Encargado de la gestión de tareas, control de calidad de los entregables y cumplimiento de los cronogramas del proyecto} 
+      \resumeItemListEnd
+    \resumeSubheading
+      {Mobiquos}{Talca, Chile}
+      {Ingeniero de Software y Proyectos}{Abr 2019 -- Feb 2022}
+      \resumeItemListStart 
+        \resumeItem{Lider de Proyectos}
+          {Responsable equipo multidisciplinario enfocado en la implementación de soluciones a medida de la necesidad del cliente.}   
+        \resumeItem{Ingeniero de Proyectos}
+          {Responsable de proyectos de ingeniería e investigación, encargado del diseño e implementación de sistemas de acuerdo a los requerimiento de los clientes integrando dispositivo y aplicaciones (IoT). }
+        \resumeItem{Ingeniero de Software}
+          {Desarrollador de soluciones a medida del cliente}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Mobiquos}{Talca, Chile}
+      {Freelance}{Abr 2018 -- Mar 2019}
+      \resumeItemListStart
+        \resumeItem{Full Stack Developer}
+          {Desarrollador de soluciones a medida del cliente}
+        \resumeItem{Manos Remotas}
+          {Responsable asistencia remota empresa Multinacional JTI Networks y Neutrona Networks (actualmente Flō Networks y enveedo)}
+      \resumeItemListEnd      
+  \resumeSubHeadingListEnd
+  \begin{comment}
+    \begin{cventries2}
+    \cventrynew
+    {Banco de Chile, \textnormal{\textit{Ingeniero de software} | Santiago, Chile}} % Job title
+    {Ene 2024 - A la fecha} % Date (s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities      
+        \item {Investigación y resolución de problemática en servicios y aplicativos productivos. Levantando posteriormente la tarea o corrección correspondiente.} 
+        \item {Gestionar y realizar las mejoras en aplicativos productivos, automatización de tarea y procedimiento, desarrollo de nuevas funcionalidades solicitadas por canales digitales. corrigiendo errores o mejorando la usabilidad de los aplicativos y aportando en la transformación digital de la compañía.}
+        \item {Diseño, gestión y desarrollo de aplicativos web, para apoyar al área de monitoreo de la compañía, permitiendo concentrar los recursos y notificar por medio de mensajería el estado y alerta de los sistemas críticos y que afectan la operación de la compañía.}     
+      \end{cvitems}
+    }
+    \newline
+
+
+    %---------------------------------------------------------
+    \cventrynew
+    {Banchile Inversiones, \textnormal{\textit{Ingeniero de software} | Santiago, Chile}} % Job title
+    {Mar 2022 - Dic 2023} % Date (s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Diseño, gestión y desarrollo de aplicativos web, para apoyar al área de monitoreo de la compañía, permitiendo concentrar los recursos y notificar por medio de mensajería el estado y alerta de los sistemas críticos y que afectan la operación de la compañía.} 
+        \item {Diseño y desarrollo de aplicativo para la gerencia de recurso humano para mejorar el proceso de levantamiento de solicitud, selección de candidato y contratación de los colaboradores, además de automatizar el proceso creación de cuenta y solicitud de equipo tecnológico y telefónico.}
+        \item {Mejoras en aplicativos productivos, automatización de tarea y procedimiento, desarrollo de nuevas funcionalidades solicitadas por área de operaciones, marketing, conciliación , etc. corrigiendo errores o mejorando el flujo de trabajo.}
+        \item {Investigación y resolución de problemática en servicio y aplicativo. Generando una mantención en los sistemas de la compañía.}
+      \end{cvitems}
+    }
+
+    \newline
+
+  \end{comment}
+
+%-----------Educación-----------------
+
+\section{Educación}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Universidad de Talca }{Talca, Chile}
+      {Ingeniero Civil en Computación}{Mar 2010 -- Dec 2013}
+    %\resumeSubheading
+    % {Birla Institute of Technology and Science}{Pilani, India}
+    % {Bachelor of Engineering in Electrical and Electronics; GPA: 3.66 (9.15/10.0)}{Aug 2008 -- July 2012}
+  \resumeSubHeadingListEnd
+
+
+%-----------Projects-----------------
+
+\section{Proyectos}
+  \resumeSubHeadingListStart
+    % \resumeSubItem{ERP - Software de gestión integral a medida para empresas}
+    %  {Software modular y escalable a requerimientos del cliente, implementado en clínicas dentales, restaurante, locales de ventas para gestionar control de usuario, inventario, venta, reportes e informe personalizados, etc}
+    % \resumeSubItem{Movil App - Sistema de control de flotilla de vehículos}
+    %   {Software modular y escalable a requerimientos del cliente, implementado en empresa contratista para del eléctrico}
+    % \resumeSubItem{IDS-IPS  OT Networks}
+    %   {Sistema para detección y control de ataques (IDS e IPS) para redes de comunicación de sistemas industriales SCADA DNP3}
+    % \resumeSubItem{Web App - Software de gestión de RRHH y Onboarding}
+    %   {Software modular y escalable a requerimientos del cliente }
+    \resumeSubItem{ERP - Sistema Integral de Gestión Empresarial}
+      {Desarrollo de una plataforma ERP modular y altamente escalable, adaptada a requerimientos específicos del cliente. Implementada exitosamente en diversos sectores (clínicas dentales, gastronomía y retail) para optimizar el control de inventarios, gestión de ventas, administración de usuarios y generación de reportes de inteligencia de negocios (BI).}
+    \resumeSubItem{App Móvil - Sistema de Control de Flota Vehicular}
+      {Aplicación móvil diseñada para la gestión operativa en terreno de contratistas del sector eléctrico. Permite el monitoreo de vehículos, optimización de rutas y control logístico, mejorando la eficiencia en la asignación de recursos y tiempos de respuesta.}
+    \resumeSubItem{Ciberseguridad OT - IDS/IPS para Redes Industriales}
+      {Sistema avanzado de detección y prevención de intrusos (IDS/IPS) para redes de operación (OT). Especializado en el análisis de tráfico del protocolo SCADA DNP3, diseñado para proteger infraestructuras críticas mediante la identificación de anomalías y ciberataques en tiempo real.}
+    \resumeSubItem{Web App - Plataforma de RRHH y Onboarding Digital}
+      {Solución web integral para la digitalización de procesos de Recursos Humanos. Automatiza el ciclo de vida del empleado, desde la gestión documental y selección hasta el onboarding, facilitando la integración de talento y el cumplimiento administrativo.}
+  
+  \resumeSubHeadingListEnd
+
+
+%--------SKILLS------------
+
+\section{Habilidades y Certificados}
+  \resumeSubHeadingListStart
+      \resumeSubItem{Lenguajes}{: Java, TypeScript, JavaScript, Python, SQL, Bash, PHP}
+      \resumeSubItem{Base de Datos}{: Relacional (Oracle, PostgresSql, MySql y Maria-db) y No Relacional(MongoDB)}
+      \resumeSubItem{Cloud y Contenedores}{: GCP, OCI, AWS, Docker, Kubernetes}
+      \resumeSubItem{Inglés}{: Intermedio B2, Capacidad para interpretar documentación técnica compleja, colaborar en foros especializados y mantener una comunicación fluida y efectiva en entornos internacionales.}
+      \resumeSubItem{Certificados}{: Linux Foundation LFS151.x, OCI Foundations Associate, Desafio Latam(Backend con typescript, DEVOPS con IA)}
+  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+
+\end{document}
